@@ -1,0 +1,14 @@
+trait_extreme_breeders = {
+	cost = 0
+
+    icon = "gfx/interface/icons/traits/trait_robotic_3.dds"
+	modifier = {
+		leader_age = 100
+		pop_food_req_mult = -1.0
+		influence_gain_mult = -0.1
+	}
+}
+
+trait_very_short_lifes = {
+	
+}

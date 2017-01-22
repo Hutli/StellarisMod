@@ -1,0 +1,60 @@
+eden = {
+	name= "eden"
+	spawn_enabled = yes # yes / no / always
+
+	name_list = "EDE1"
+	ship_prefix = "Eden"
+	
+	species_name = "Eden"
+	species_plural = "Eden"	#we should localize this!
+	species_adjective = "Eden"
+	species_class = "SYN"
+    trait = "trait_colony_build"
+	trait = "trait_synthetic"
+	trait = "trait_new_settelers"
+	portrait = "ede1"
+	adjective = "eden"
+	
+	government = "indirect_democracy"
+	ethic = "ethic_fanatic_collectivist"
+	ethic = "ethic_materialist"
+	
+	flags = { eden custom_start_screen }
+	
+	weapon = "tech_lasers_1"
+	ftl = wormhole
+	
+	planet_name = "Kapteyn B*"
+	planet_class = "pc_continental"
+#	initializer = ""
+	system_name = "Kapteyn"
+	
+	graphical_culture = "ai_01"
+	city_graphical_culture = "arthropoid_01"
+	
+	empire_flag = {
+		icon = {
+			category = "pointy"
+			file = "eden_flag.dds"
+		}
+		background={
+			category = "backgrounds"
+			file = "stripes.dds"
+		}
+		colors={
+			"blue"
+			"blue"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		gender=male
+		name="Unit KT-5"
+		portrait="ede1"
+		texture=2
+		hair=0
+		clothes=0
+	}
+}

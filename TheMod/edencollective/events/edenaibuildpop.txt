@@ -1,0 +1,133 @@
+namespace = edenaibuildpop
+
+#Sector builds Eden pop
+
+country_event = {
+	id = edenaibuildpop.1
+	hide_window = yes
+	#is_triggered_only = yes
+	
+	trigger = {
+		sectors > 0
+		has_country_edict = eden_ai_sector
+		is_ai = no
+		has_monthly_income = { resource = energy value > 5 }
+		has_monthly_income = { resource = minerals value > 5 }
+		has_country_resource = {
+			type = minerals
+			amount > 300
+		}
+		has_country_resource = {
+			type = energy
+			amount > 300
+		}
+		any_owned_planet = {
+			any_tile = {
+				AND = {
+						has_grown_pop = no
+						has_growing_pop = no
+					 	has_blocker = no
+					}
+			}
+		}
+	}
+	
+	mean_time_to_happen = { months = 4 }
+	
+	immediate = {
+		random_owned_planet = {
+			limit = {
+					sector_controlled = yes
+			}
+			owner = {
+				add_minerals = -50
+				add_energy = -150
+			}
+			best_tile_for_pop = {
+				create_pop = { 
+					species = owner_main_species
+					ethos = owner
+				}
+			}
+		}
+	}
+}
+
+#Ai builds Eden pop
+
+country_event = {
+	id = edenaibuildpop.2
+	hide_window = yes
+	#is_triggered_only = yes
+	
+	trigger = {
+		is_ai = yes
+        has_trait = trait_eden_synthetic
+		species_portrait = "eden"
+		has_trait = trait_pc_continental_preference
+		OR = { 
+		    has_monthly_income = { resource = energy value > 5 }
+				has_country_resource = {
+			        type = energy
+			        amount > 200
+		        }
+		}
+		has_monthly_income = { resource = minerals value > 0 }
+		has_country_resource = {
+			type = minerals
+			amount > 200
+		}
+		any_owned_planet = {
+			any_tile = {
+				AND = {
+						has_grown_pop = no
+						has_growing_pop = no
+					 	has_blocker = no
+					}
+			}
+		}
+	}
+	
+	mean_time_to_happen = { months = 4 }
+	
+	immediate = {
+		random_owned_planet = {
+			owner = {
+				add_minerals = -50
+				add_energy = -150
+			}
+			best_tile_for_pop = {
+				create_pop = { 
+					species = owner_main_species
+					ethos = owner
+				}
+		    }
+		}
+	}
+}
+
+#Give AI energy if he playing as Eden
+
+country_event = {
+	id = edenaibuildpop.3
+	hide_window = yes
+	#is_triggered_only = yes
+	
+	trigger = {
+		is_ai = yes
+        has_trait = trait_eden_synthetic
+		species_portrait = "eden"
+		has_trait = trait_pc_continental_preference
+		has_monthly_income = { resource = energy value < 0 }
+		has_country_resource = {
+			type = energy
+			amount < 100
+		}
+	}
+	
+	mean_time_to_happen = { months = 3 }
+	
+	immediate = {
+				add_energy = 150
+	}
+}

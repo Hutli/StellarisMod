@@ -1,0 +1,38 @@
+#Ai builds new edens in sectors. Give Eden +400 age.
+
+country_edict = {
+	name = "eden_ai_sector"
+	modifier = {
+	}
+	
+	influence_cost = 0
+	
+	potential = {
+		species_portrait = "eden"
+    	trait = "trait_colony_build"
+		trait = "trait_synthetic"
+		trait = "trait_new_settelers"
+		has_trait = trait_pc_continental_preference
+		is_ai = no
+	}
+	
+	ai_weight = {
+		weight = -1
+	}
+}
+
+country_edict = {
+	name = "eden_edict_maintenance"
+	modifier = { leader_age = 400 }
+	
+	influence_cost = 1
+	
+	potential = {
+		species_portrait = "eden"
+		is_ai = no
+	}
+	
+	ai_weight = {
+		weight = -1
+	}
+}

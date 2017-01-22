@@ -1,0 +1,19 @@
+### Eden&Synthetics
+
+SYN = {
+	eden = {
+		name = Eden
+		plural = Eden
+		home_planet = "Kapteyn B*"
+		home_system = "Kapteyn"
+		name_list = "eden_names"
+	}
+	
+	synthetics = {
+		name = Synthetic
+		plural = Synthetics
+		home_planet = "World Alpha"
+		home_system = "System Alpha"
+		name_list = "eden_names"
+	}
+}

@@ -1,0 +1,27 @@
+﻿l_english:
+ #Empires
+ EMPIRE_DESIGN_eden:0 "Eden Collective"
+ EMPIRE_DESIGN_eden_desc:0 "Originally designed by The Humans, this synthetic race was build in a desperate attempt to save their species from extinction. Through overspending and pollution Earth (The Humans home world) was becoming irreversibly uninhabitable. The Eden Collectives mission was to prepare Earth's closest exoplanet Proxima B for colonisation."
+ name_list_eden_names:0 "Eden"
+ buildable_eden:0 "Eden"
+ buildable_eden_desc:0 "§LEden create new platforms from minerals and energy for different work on the planet§!\n"
+ START_SCREEN_eden:0 "Petty dispute over the remaining scarce resources on Earth broke out shortly after the colonial ship was launched and resulted in an atomic war among the Humans. With an already failing ecosystem, Earth spiralled into an extreme nuclear winter. In a desperate effort to save themselves and avoid complete extinction the few surviving Humans tried to recall the colonial ship. For unknown reasons the attempt failed and instead the colonial ship was sent on an unknown course into space.\n\nThe Eden Collective, awoken as planned, found themselves far from their original destination. With their objective still firmly planted in their programming they settled the closest planet registered as an exoplanet. With advanced evolutionary programming and general design for acclimatisation, the Eden Collective quickly adapted to their new situation. As the, assumably, only remaining part of the Human Civilisation the Eden Collective now strive to expand themselves ensuring the, if only partial, survival of their ancestors."
+ eden_cant_outlawed:0 "Eden can't outlaw ai."
+ eden_cant_enslave:0 "Eden can't force robot or synthetic to work."
+ edict_eden_edict_maintenance:0 "Platform maintenance"
+ edict_eden_edict_maintenance_desc:0 "Eden repair and maintain their platforms instead of building new one, thats increase operating time of every eden unit.\n\n"
+ edict_eden_ai_sector:0 "Self-constructed platforms"
+ edict_eden_ai_sector_desc:0 "AI builds new eden platforms in sectors without direct orders. It takes resourses from general supply if empire have 300 minerals and energy and their monthly income is more than +5.\n\n"
+
+ EMPIRE_DESIGN_leputis:0 "Leputis"
+ EMPIRE_DESIGN_leputis_desc:0 ""
+ name_list_leputis_names:0 "Leputis"
+ buildable_leputis:0 "Leputis"
+
+ #Traits
+ trait_synthetic:0 "Synthetic"
+ trait_synthetic_desc:0 "§LSynthetics are very complex machines that are superior to organics in most respects. Their positronic brains are capable of supporting a class-7 artificial intelligence, making them fully self-aware.§!\n"
+ trait_new_settelers:0 "New Settelers"
+ trait_new_settelers_desc:0 "§LRecently setteled.§!\n"
+ trait_colony_build:0 "Colony Build"
+ trait_colony_build_desc:0 "§LBuild for colonisation.§!\n"

@@ -1,0 +1,57 @@
+leputis = { #Short for Lepus-Mentis
+	name = "leputis"
+	spawn_enabled = yes # yes / no / always
+	
+	name_list = "LEP1"
+	ship_prefix = "HOP"
+	
+	species_name = "Leputis"
+	species_plural = "Leputians"
+	species_adjective = "Leputian"
+	species_class = "LEP"
+    trait = "trait_colony_build"
+	trait = "trait_synthetic"
+	trait = "trait_new_settelers"
+	portrait = "lep1"
+	adjective = "Leputis"
+	
+	government = "military_dictatorship"
+	ethic = "ethic_collectivist"
+	ethic = "ethic_fanatic_militarist"
+
+
+	
+	weapon = "tech_mass_drivers_1"
+	ftl = warp
+	
+	planet_name = "Tzynnia"
+	planet_class = "pc_desert"
+#	initializer = ""
+	system_name = Sal'Tzynn
+	
+	graphical_culture = "reptilian_01"
+	city_graphical_culture = "reptilian_01"
+	
+	empire_flag = {
+		icon = {
+			category = "pointy"
+			file = "flag_pointy_2.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "v.dds"
+		}
+		colors={
+			"red"
+			"red"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "Sazzeeja"
+		gender = male
+		portrait = "lep1"
+	}	
+}

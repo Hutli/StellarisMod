@@ -1,0 +1,52 @@
+buildable_geth = {
+		
+	prerequisites = {
+		#"tech_synthetic_workers"
+	}
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		OR = {
+			has_policy_flag = ai_servitude
+			has_policy_flag = ai_full_rights
+		}
+	}
+	
+	potential = {
+		#always = yes
+        species_portrait = "geth"
+		has_trait = trait_geth_synthetic
+		has_trait = trait_pc_desert_preference
+	}
+	
+	species = {
+		name = "Geth"
+		class = "SYN"
+		portrait = "geth"
+		traits = {
+			trait = "trait_geth_synthetic"
+			trait = "trait_sedentary"
+			trait = "trait_pc_desert_preference"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	 #can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}

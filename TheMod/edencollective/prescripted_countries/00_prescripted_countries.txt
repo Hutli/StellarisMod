@@ -1,0 +1,480 @@
+# Tzynn
+tzynn = {
+	name = "tzynn"
+	spawn_enabled = yes # yes / no / always
+	
+	name_list = "REP1"
+	ship_prefix = "TIS"
+	
+	species_name = "Tzynn"
+	species_plural = "Tzynn"	#we should localize the names!
+	species_adjective = "Tzynn"
+	species_class = "REP"
+	trait = "trait_strong"
+	trait = "trait_talented"
+	trait = "trait_rapid_breeders"
+	trait = "trait_nonadaptive"
+	portrait = "rep9"
+	adjective = "Tzynn"
+	
+	government = "military_dictatorship"
+	ethic = "ethic_collectivist"
+	ethic = "ethic_fanatic_militarist"	
+	
+	weapon = "tech_mass_drivers_1"
+	ftl = warp
+	
+	planet_name = "Tzynnia"
+	planet_class = "pc_desert"
+	system_name = Sal'Tzynn
+	
+	graphical_culture = "reptilian_01"
+	city_graphical_culture = "reptilian_01"
+	
+	empire_flag = {
+		icon= {
+			category = "pointy"
+			file = "flag_pointy_2.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "v.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	#leader = {
+	#	class = ruler
+	#	experience = 1200.0
+	#}
+	ruler = {
+		name = "Sazzeeja"
+		gender = male
+		portrait = "rep9"
+		texture = 1
+		#hair = 0
+		clothes = 4
+	}	
+}
+
+# Yondar
+yondar = {
+	name = "yondar"
+	spawn_enabled = yes # yes / no / always
+	
+	species_name = "Yondar"
+	species_plural = "Yondar"	#we should localize the names!
+	species_adjective = "Yondari"
+	adjective = "Yondar"
+	
+	name_list = "AVI1"
+	ship_prefix = "YRS"
+	
+	species_class = "AVI"
+	trait = "trait_talented"
+	trait = "trait_solitary"
+	trait = "trait_natural_physicists"
+	portrait = "avi10"
+	
+	planet_name = "Yondarim"
+	planet_class = "pc_alpine"
+	system_name = B'Yond
+	
+	government = "divine_mandate"
+	ethic = "ethic_pacifist"
+	ethic = "ethic_fanatic_spiritualist"	
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	graphical_culture = "avian_01"
+	city_graphical_culture = "avian_01"
+	
+	empire_flag = {
+		icon= {
+			category = "zoological"
+			file = "flag_zoological_6.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "stripes.dds"
+		}
+		colors={
+			"blue"
+			"dark_blue"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "Yeerak"
+		gender = male
+		portrait = "avi10"
+		texture = 1
+		#hair = 0
+		clothes = 3
+	}
+}
+
+# Ix'Idar
+ixidar = {
+	name = "ixidar"
+	spawn_enabled = yes # yes / no / always
+	
+	species_name = "Ix'Idar"
+	species_plural = "Ix'Idars"	#we should localize the names!
+	species_adjective = "Ix'Idari"
+	adjective = "Ixidar"
+	
+	name_list = "ART1"
+	ship_prefix = "ICS"
+	
+	species_class = "ART"
+	trait = "trait_rapid_breeders"
+	trait = "trait_communal"
+	trait = "trait_repugnant"
+	trait = "trait_strong"
+	portrait = "art12"
+	
+	planet_name = "Ix'Athrak"
+	planet_class = "pc_arctic"
+	system_name = Athrak
+	
+	government = "despotic_hegemony"
+	ethic = "ethic_materialist"
+	ethic = "ethic_fanatic_collectivist"
+	
+	weapon = "tech_mass_drivers_1"
+	ftl = hyperdrive
+	
+	graphical_culture = "arthropoid_01"
+	city_graphical_culture = "arthropoid_01"
+	
+	empire_flag = {
+		icon= {
+			category = "ornate"
+			file = "flag_ornate_18.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors={
+			"dark_grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "Xid'Ixa'Xir'Idon"
+		gender = male
+		portrait = "art12"
+		texture = -1
+		#hair = 0
+		clothes = 2
+	}
+}
+
+# Chinorr
+chinorr = {
+	name = "chinorr"
+	spawn_enabled = yes # yes / no / always
+	
+	species_name = "Chinorr"
+	species_plural = "Chinorr"	#we should localize the names!
+	species_adjective = "Chinorr"
+	adjective = "Chinorran"
+	
+	name_list = "MOL1"
+	ship_prefix = "CUS"
+	
+	species_class = "MOL"
+	trait = "trait_industrious"
+	trait = "trait_repugnant"
+	trait = "trait_natural_engineers"
+	portrait = "mol11"
+	
+	planet_name = "Chicora"
+	planet_class = "pc_arid"
+	system_name = Chiconaph
+	
+	government = "science_directorate"
+	ethic = "ethic_individualist"
+	ethic = "ethic_fanatic_materialist"	
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	graphical_culture = "molluscoid_01"
+	city_graphical_culture = "molluscoid_01"
+	
+	empire_flag = {
+		icon= {
+			category = "ornate"
+			file = "flag_ornate_4.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "triangle_split.dds"
+		}
+		colors={
+			"red_orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "Jurrba Shogg"
+		gender = male
+		portrait = "mol11"
+		texture = 1
+		#hair = 0
+		clothes = 3
+	}
+}
+
+# Jehetma
+jehetma = {
+	name = "jehetma"
+	spawn_enabled = yes # yes / no / always
+	
+	species_name = "Jehetma"
+	species_plural = "Jehetma"	#we should localize the names!
+	species_adjective = "Jehetman"
+	adjective = "Jahetman"
+	
+	name_list = "FUN1"
+	ship_prefix = "JDS"
+	
+	species_class = "FUN"
+	trait = "trait_slow_breeders"
+	trait = "trait_thrifty"
+	trait = "trait_communal"
+	portrait = "fun13"
+	
+	planet_name = "Jehet Prime"
+	planet_class = "pc_tundra"
+	system_name = Jehet
+	
+	government = "peaceful_bureaucracy"
+	ethic = "ethic_collectivist"
+	ethic = "ethic_fanatic_pacifist"
+	
+	weapon = "tech_mass_drivers_1"
+	ftl = wormhole
+	
+	graphical_culture = "fungoid_01"
+	city_graphical_culture = "fungoid_01"
+	
+	empire_flag = {
+		icon= {
+			category = "ornate"
+			file = "flag_ornate_7.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors={
+			"dark_brown"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "Haragma"
+		gender = female
+		portrait = "fun13"
+		texture = -1
+		#hair = 0
+		clothes = 2
+	}
+}
+
+# Scyldari
+scyldari = {
+	name = "scyldari"
+	spawn_enabled = yes # yes / no / always
+	
+	species_name = "Scyldari"
+	species_plural = "Scyldarians"	#we should localize the names!
+	species_adjective = "Scyldarian"
+	adjective = "Scyldarian"
+	
+	name_list = "MAM1"
+	ship_prefix = "SCS"
+	
+	species_class = "MAM"
+	trait = "trait_charismatic"
+	trait = "trait_solitary"
+	trait = "trait_natural_sociologists"
+	trait = "trait_quick_learners"
+	portrait = "mam6"
+	
+	planet_name = "Scyldaria"
+	planet_class = "pc_ocean"
+	system_name = Scyldon
+	
+	government = "direct_democracy"
+	ethic = "ethic_materialist"
+	ethic = "ethic_pacifist"
+	ethic = "ethic_xenophile"
+	
+	weapon = "tech_mass_drivers_1"
+	ftl = warp
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+		icon= {
+			category = "spherical"
+			file = "flag_spherical_15.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors={
+			"burgundy"
+			"orange"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "Dackam"
+		gender = female
+		portrait = "mam6"
+		texture = 3
+		#hair = 0
+		clothes = 3
+	}
+}
+
+## Kel-Azaan
+kel_azaan = {
+	name = "kel_azaan"
+	spawn_enabled = yes
+	
+	species_name = "Kel-Azaan"
+	species_plural = "Azaans"	# we should localize the names!
+	species_adjective = "Kel-Azaan"
+	adjective = "Azaan"
+	
+	name_list = "ART3"
+	ship_prefix = "KAS"
+	
+	species_class = "ART"
+	trait = "trait_adaptive"
+	trait = "trait_nomadic"
+	trait = "trait_fleeting"	
+	portrait = "art8"
+	
+	planet_name = "Azak"
+	system_name = "Kel-Azak"
+	planet_class = "pc_savannah"
+	
+	government = "military_republic"
+	ethic = "ethic_individualist"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"	
+	
+	weapon = "tech_mass_drivers_1"
+	ftl = wormhole
+	
+	graphical_culture = "arthropoid_01"
+	city_graphical_culture = "arthropoid_01"
+	
+	empire_flag = {
+		icon={
+			category="ornate"
+			file="flag_ornate_20.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"purple"
+			"dark_purple"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "Krexax"
+		gender = male
+		portrait = "art8"
+		texture = 1
+		#hair = 0
+		clothes = 2
+	}	
+}
+
+# Blorg Commonality
+blorg={
+	name = "blorg"
+	spawn_enabled = no # yes / no / always
+	spawn_as_fallen = yes # overrides spawn_enabled for fallen empires
+	
+	name_list="HUM4"
+	ship_prefix="BCS"
+	species_name="Blorg"
+	species_plural="Blorg"
+	species_class="FUN"
+	species_adjective="Blorg"
+	portrait="fun12"
+	name="Blorg Commonality"
+	adjective="Blorg"
+	government="plutocratic_oligarchy"
+	ftl=warp
+	weapon="tech_lasers_1"
+	planet_name="Blorg"
+	planet_class="pc_tropical"
+	system_name="Blorg"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_11.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"green"
+			"red_orange"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Ashley Easterbrook"
+		portrait="fun12"
+		texture=0
+	}
+	ethic="ethic_fanatic_xenophile"
+	ethic="ethic_militarist"
+	trait="trait_repugnant"
+	trait="trait_solitary"
+	trait="trait_venerable"
+}

@@ -1,0 +1,48 @@
+buildable_eden = {
+	cost = {
+		minerals = 50
+		energy = 150
+	}
+	
+	allow = {
+		OR = {
+			has_policy_flag = ai_servitude
+			has_policy_flag = ai_full_rights
+		}
+	}
+	
+	potential = {
+		#always = yes
+        species_portrait = "eden"
+		has_trait = "trait_synthetic"
+	}
+	
+	species = {
+		name = "Eden"
+		class = "SYN"
+		portrait = "ede1"
+		traits = {
+	    trait = "trait_colony_build"
+		trait = "trait_synthetic"
+		trait = "trait_new_settelers"
+			trait = "trait_pc_continental_preference"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 30.0
+		}
+		pops_auto_growth = 1.0
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = no
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		can_be_modified = yes
+		pops_have_happiness = yes
+		pop_ethics = random	 #can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+}

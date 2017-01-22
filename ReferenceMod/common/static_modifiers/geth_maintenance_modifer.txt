@@ -1,0 +1,3 @@
+geth_maintenance = {
+	leader_age = 400
+}

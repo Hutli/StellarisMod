@@ -1,0 +1,36 @@
+#Ai builds new geths in sectors. Give Geth +400 age.
+
+country_edict = {
+	name = "geth_ai_sector"
+	modifier = {
+	}
+	
+	influence_cost = 0
+	
+	potential = {
+		species_portrait = "geth"
+        has_trait = trait_geth_synthetic
+		has_trait = trait_pc_desert_preference
+		is_ai = no
+	}
+	
+	ai_weight = {
+		weight = -1
+	}
+}
+
+country_edict = {
+	name = "geth_edict_maintenance"
+	modifier = { leader_age = 400 }
+	
+	influence_cost = 1
+	
+	potential = {
+		species_portrait = "geth"
+		is_ai = no
+	}
+	
+	ai_weight = {
+		weight = -1
+	}
+}

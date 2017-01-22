@@ -1,0 +1,67 @@
+geth = {
+
+	name= "geth"
+	spawn_enabled = no
+
+	name_list = "geth_names"
+	ship_prefix = "Geth"
+	
+	species_name = "Geth"
+	species_plural = "Geth"	#we should localize this!
+	species_adjective = "Geth"
+	species_class = "SYN"
+    trait = "trait_geth_synthetic"
+	trait = "trait_sedentary"
+	portrait = "geth"
+	adjective = "geth"
+	
+	government = "despotic_hegemony"
+	ethic="ethic_fanatic_collectivist"
+	ethic="ethic_materialist"
+	
+	flags = { geth custom_start_screen }
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Rannoch"
+	planet_class = "pc_desert"
+#	initializer = ""
+	system_name = "Tikkun"
+	
+	graphical_culture = "fungoid_01"
+	city_graphical_culture = "arthropoid_01"
+	
+	empire_flag={
+		icon={
+			category="pointy"
+			file="geth_flag.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripes.dds"
+		}
+		colors={
+			"black"
+			"grey"
+			"null"
+			"null"
+		}
+	}
+	
+	#leader = {
+	#	name = "Dolores Muwanga"
+	#	class = ruler
+	#	portrait = "human_female_05"
+	#	experience = 1200.0
+	#}
+	
+	ruler = {
+		gender=male
+		name="Unit KT-5"
+		portrait="geth"
+		texture=2
+		hair=0
+		clothes=0
+	}
+}
