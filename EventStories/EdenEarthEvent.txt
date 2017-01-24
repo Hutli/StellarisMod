@@ -1,8 +1,8 @@
-As your scientists start to scan the planet they find something odd. There seems to be old ruins and momuments scattered in key locations around the planet.
+As the scientists start to scan the planet they finding old ruins and momuments scattered in key locations around the planet. It seeems that this planet was once home for several intelligent species.
 
-Your scientists nocice a pattern amoung the sites. It seems that the ruins collect in cities all around the planet, as if this once was a planet holding a great civilisation but now, completely abandonned.
+As they continue their scans and look closer at these sights the scientists nocice a pattern. It seems that collection of ruins actully resemble cities all around the planet. The acitectual design and engeneering of the building suggest that the buildings all were designed for the same specie, as if this once was a planet holding one great global civilisation. Oddly, everything seems to be abannoned and in an extreme state of decay. Obviously something has happend here that either made everyone leave or worse.
 
-Obviously something has happend here that either made everyone leave or worse.
+The sensors are currently 
 
 Options:
 1. Investegate further
