@@ -1,0 +1,9 @@
+As your scientists start to scan the planet they find something odd. There seems to be old ruins and momuments scattered in key locations around the planet.
+
+Your scientists nocice a pattern amoung the sites. It seems that the ruins collect in cities all around the planet, as if this once was a planet holding a great civilisation but now, completely abandonned.
+
+Obviously something has happend here that either made everyone leave or worse.
+
+Options:
+1. Investegate further
+2. Leave planet
