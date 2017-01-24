@@ -1,6 +1,6 @@
 # Triggers when pressing begin in the intro window
 # This = country to press begin
-on_press_begin = {
+on_game_start = {
 	events = {
 		edenspawn.1
 	}

@@ -12,9 +12,7 @@ buildable_eden = {
 	}
 	
 	potential = {
-		#always = yes
         species_portrait = "eden"
-		has_trait = "trait_synthetic"
 	}
 	
 	species = {
